@@ -94,7 +94,7 @@ main {
 	align-items: center;
 	justify-content: space-between;
 	background-color: var(--c-very-pale-blue);
-	margin-bottom: var(--size-4);
+	margin-bottom: var(--size-5);
 }
 
 .card__plan-left {
@@ -152,7 +152,7 @@ main {
 }
 
 .card__btn:first-of-type {
-	margin-bottom: var(--size-2);
+	margin-bottom: var(--size-3);
 }
 
 .card__btn:first-of-type:hover {
