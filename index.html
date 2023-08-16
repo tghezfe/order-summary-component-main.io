@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Frontend Mentor | Order summary card</title>
+	</head>
+	<body>
+		<main>
+			<div class="card">
+				<figure class="card__figure">
+					<img src="./images/illustration-hero.svg" alt="Hero Illustration" />
+				</figure>
+				<div class="card__container">
+					<article class="card__text">
+						<h1 class="card__title">Order Summary</h1>
+						<p class="card__description">
+							You can now listen to millions of songs, audiobooks, and podcasts
+							on any device anywhere you like!
+						</p>
+					</article>
+					<form class="card__form" onsubmit="prevent(event)">
+						<div class="card__plan">
+							<div class="card__plan-left">
+								<img src="./images/icon-music.svg" alt="Music" />
+								<div class="card__plan-info">
+									<span class="card__plan-type">Annual Plan</span>
+									<span class="card__plan-price">$59.99/year</span>
+								</div>
+							</div>
+							<button class="card__plan-btn">Change</button>
+						</div>
+						<button class="card__btn card__btn--purple">
+							Proceed to Payment
+						</button>
+						<button class="card__btn">Cancel Order</button>
+					</form>
+				</div>
+			</div>
+		</main>
+		<script>
+			function prevent(e) {
+				e.preventDefault()
+			}
+		</script>
+	</body>
+</html>
